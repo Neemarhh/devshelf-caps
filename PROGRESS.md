@@ -9,7 +9,7 @@ do this before closing out.
 
 ## How to use this file
 
-- **Status** column: ⬜ Not started · 🔶 In progress · ✅ Complete (passed quiz)
+- **Status** column: 🔶 In progress · ✅ Complete (passed quiz)
 - Update status the moment a topic's quiz (Rule 3 in copilot-instructions.md)
   is actually passed — not when code is merely deployed.
 - When a feature is added to the codebase, list it under "Current Features"
@@ -33,6 +33,12 @@ Copilot checks before assuming what does/doesn't exist yet.)*
 | CRUD for Tasks (+ PATCH status) | `server/Controllers/TasksController.cs` | (baseline) |
 | Interactive Scalar API Docs | `server/Program.cs` (`/scalar/v1`) | (baseline) |
 | *(add new rows as features are built)* | | |
+| React client(vite) | `client` | (baseline) |
+| Axios instance + token interceptor | `client/src/api/client.js | (baseline) |
+| AuthContext(login, register, logout) | `client/src/content/AuthContext.jsx` | (baseline) |
+| ProtectedRoute, Navbar | `client/src/components/` | (baseline) |
+| Login and Register Pages | `client/src/pages/` | (baseline) |
+| Resources, Snippets, Tasks Pages (full CRUD) | `client/src/pages/` | (baseline) |
 
 ---
 

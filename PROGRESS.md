@@ -39,6 +39,15 @@ Copilot checks before assuming what does/doesn't exist yet.)*
 | ProtectedRoute, Navbar | `client/src/components/` | (baseline) |
 | Login and Register Pages | `client/src/pages/` | (baseline) |
 | Resources, Snippets, Tasks Pages (full CRUD) | `client/src/pages/` | (baseline) |
+| React client (Vite + React) | `client/` | (baseline) |
+| Axios instance with token interceptor | `client/src/api/client.js` | (baseline) |
+| AuthContext (login, register, logout, saved session) | `client/src/context/AuthContext.jsx` | (baseline) |
+| ProtectedRoute (redirects logged-out users to login) | `client/src/components/ProtectedRoute.jsx` | (baseline) |
+| Navbar (responsive, hamburger menu on phones, active link highlight) | `client/src/components/Navbar.jsx` | (baseline) |
+| Login and Register pages | `client/src/pages/LoginPage.jsx`, `RegisterPage.jsx` | (baseline) |
+| Home page (new vs returning user greeting) | `client/src/pages/HomePage.jsx` | (baseline) |
+| Resources, Snippets and Tasks pages (full CRUD, task status via PATCH) | `client/src/pages/` | (baseline) |
+| Responsive styling | `client/src/index.css` | (baseline) |
 
 ---
 

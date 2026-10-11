@@ -495,3 +495,17 @@ main > div > div > span {
   display: flex; justify-content: space-between; align-items: center;
   gap: 0.75rem; padding: 0.7rem 0; border-top: 1px solid var(--border);
 }
+
+/* ---------- Fix: logo badge beside the name ---------- */
+.auth-page > .auth-brand {
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.auth-page > .auth-brand > .logo {
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  font-weight: 700;
+}

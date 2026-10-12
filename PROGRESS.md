@@ -54,6 +54,7 @@ Copilot checks before assuming what does/doesn't exist yet.)*
 | React app live on Vercel | https://devshelf-caps.vercel.app | (baseline) |
 | Env-based config (API address, CORS origins, JWT, DB connection) | `client/src/api/client.js`, `server/Program.cs` | (baseline) |
 | Deployment diagram | `diagrams/deployment-render-vercel-neon.png` | (baseline) |
+| Lucide icons on the home dashboard | `client/src/pages/HomePage.jsx` | (baseline) |
 
 ---
 

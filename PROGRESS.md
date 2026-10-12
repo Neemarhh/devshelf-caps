@@ -48,6 +48,12 @@ Copilot checks before assuming what does/doesn't exist yet.)*
 | Home page (new vs returning user greeting) | `client/src/pages/HomePage.jsx` | (baseline) |
 | Resources, Snippets and Tasks pages (full CRUD, task status via PATCH) | `client/src/pages/` | (baseline) |
 | Responsive styling | `client/src/index.css` | (baseline) |
+| PostgreSQL on Neon (replaced SQLite so data survives restarts) | `server/Program.cs`, `server/Migrations/` | (baseline) |
+| Dockerfile for the API | `server/Dockerfile` | (baseline) |
+| API live on Render (Docker, free plan) | https://devshelf-caps.onrender.com | (baseline) |
+| React app live on Vercel | https://devshelf-caps.vercel.app | (baseline) |
+| Env-based config (API address, CORS origins, JWT, DB connection) | `client/src/api/client.js`, `server/Program.cs` | (baseline) |
+| Deployment diagram | `diagrams/deployment-render-vercel-neon.png` | (baseline) |
 
 ---
 

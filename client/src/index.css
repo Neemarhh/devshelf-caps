@@ -509,3 +509,5 @@ main > div > div > span {
   height: 36px;
   font-weight: 700;
 }
+
+.home-icon { color: var(--primary); }

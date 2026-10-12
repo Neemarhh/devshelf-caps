@@ -2,6 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../context/AuthContext';
 import api from '../api/client';
+import { Bookmark, Code, ListChecks } from 'lucide-react';
 
 export default function HomePage() {
   const { user } = useAuth();
@@ -20,9 +21,9 @@ export default function HomePage() {
   const openTasks = tasks.filter((t) => t.status !== 'done');
 
   const cards = [
-    { to: '/resources', icon: '🔖', title: 'Resources', text: 'Bookmarks to docs, articles, videos and tools.', count: `${resources.length} saved` },
-    { to: '/snippets', icon: '📋', title: 'Snippets', text: 'Reusable code, labeled by language.', count: `${snippets.length} saved` },
-    { to: '/tasks', icon: '✅', title: 'Tasks', text: 'What to do next, with priority and status.', count: `${openTasks.length} open` },
+    { to: '/resources', icon: <Bookmark size={24} />, title: 'Resources', text: 'Bookmarks to docs, articles, videos and tools.', count: `${resources.length} saved` },
+    { to: '/snippets', icon: <Code size={24} />, title: 'Snippets', text: 'Reusable code, labeled by language.', count: `${snippets.length} saved` },
+    { to: '/tasks', icon: <ListChecks size={24} />, title: 'Tasks', text: 'What to do next, with priority and status.', count: `${openTasks.length} open` },
   ];
 
   return (
